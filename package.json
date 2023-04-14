@@ -1,0 +1,24 @@
+{
+  "homepage": "https://gra4evyakov.github.io/its.agency-test-task/",
+  "name": "its.agency",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base=./",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "gh-pages": "^5.0.0",
+    "pinia": "^2.0.34",
+    "vue": "^3.2.47",
+    "vue3-carousel": "^0.2.16"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "vite": "^4.2.0"
+  }
+}
